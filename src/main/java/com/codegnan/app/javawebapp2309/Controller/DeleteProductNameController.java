@@ -18,7 +18,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @Controller
 @RequestMapping("/deleteproduct")
-public class DeleteProductNameController extends HttpServlet {
+public class DeleteProductNameController  {
 	
 private ProductService productService;
 	
