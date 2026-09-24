@@ -19,7 +19,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @Controller
 @RequestMapping("/searchproduct")
-public class SearchProductController extends HttpServlet {
+public class SearchProductController {
 	private ProductService productService;
 	
 	@Autowired 
