@@ -20,7 +20,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @Controller
 @RequestMapping("/updateproductname")
-public class UpdateProductNameController extends HttpServlet {
+public class UpdateProductNameController  {
 	private ProductService productService;
 	
 	@Autowired 
