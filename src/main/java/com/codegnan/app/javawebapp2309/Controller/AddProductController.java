@@ -22,7 +22,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @Controller
 @RequestMapping("/addproduct")
-public class AddProductController extends HttpServlet {
+public class AddProductController  {
 	private ProductService productService;
 	
 	@Autowired
